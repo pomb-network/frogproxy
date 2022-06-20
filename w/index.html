@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>FP | Womginx</title>
+</head>
+<body>
+<script>
+                function go() {
+                    var input = document.getElementById('url-target');
+                    if (input.value) {
+                        window.location.href = '/main/' + input.value;
+                    } else {
+                        alert('Please provide a link. It does not require https://.');
+                    }
+                }
+            </script>
+<div id="page">
+<div id="proxy">
+<h1>Rhodium Backend</h1>
+<p>Redirect here:<br><button class="ab" onclick="window.location.href='https://snoopfrogg.ga'">Rhodium Backend</button></p>
+    </div>
+    <div id="proxy">
+    <h1>Frog Proxy</h1>
+      <input class="w3-xlarge" type='text' placeholder='Enter Url' id='url-target'
+                    onkeydown='if(event.key==="Enter") go()' />
+                <button onclick='go()' class="w3-xlarge">Submit</button>
+      <button class="ab" onclick="window.location.href='https://w.snoopfrogg.ga/main/https://discord.com'">Discord</button>
+    <button class="ab" onclick="window.location.href='https://w.snoopfrogg.ga/main/https://www.reddit.com/'">Reddit</button> 
+<button class="ab" onclick="window.location.href='https://w.snoopfrogg.ga/main/https:/pomb.ga'">POMBnew</button>
+</div>
+  <div id="proxy">
+      <h1>Rammerhead</h1>
+      <p>Redirect here:<br><button class="ab" onclick="window.location.href='https://r.snoopfrogg.ga'">Rammerhead</button></p>
+  </div>
+</body>
+</html>
